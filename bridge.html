@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Un cadeau pour le Roi !</title>
+</head>
+
+<body id="gate">
+
+  <div id="container">
+    <div class="box">
+      <h1 class="title">Un cadeau pour le Roi !</h1>
+      <p>Vous arrivez à la fin de votre escale. Vous traverser le grand pond qui se dresse devant vous.</p>
+      <p>Au bout du grand pond se trouve une giganstesque porte.</p>
+      <p>Un garde vous arrête.</p>
+      <p><b id="guard">Garde : </b>ALTE LA !</p>
+      <hr>
+      <div class="row">
+        <div class="col-lg-5 cursor">
+          <button type="button" class="btn btn-outline-light" onclick="window.location.href = '/bridge_win.html';">J'ai un présent à remettre au roi <b id="king">Raghnall Dayton</b> </button>
+          <a class="left"></a>
+        </div>
+        <div class="col-lg-2 or">
+          <p class="center">ou</p>
+        </div>
+        <div class="col-lg-5">
+          <button type="button" class="btn btn-outline-light" onclick="window.location.href = '/bridge_fail.html';">LAISSEZ MOI PASSER BANDE DE PISSARD !</button>
+          <a class="right"></a>
+        </div>
+      </div>
+      <div class="col-lg-12 mt-5"> <button class="btn btn-outline-warning" onclick="history.go(-1)">Revenir en arrière</button></div>
+    </div>
+  </div>
+</body>
+
+</html>
